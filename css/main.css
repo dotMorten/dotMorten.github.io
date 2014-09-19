@@ -1,0 +1,89 @@
+
+body 
+{
+  font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12pt;
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .headerBackground
+  {
+    background-image: url('../images/Iot.jpg');
+    background-color: #3C3C3C;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+}
+
+.headerBackground
+{
+  background-color: #3C3C3C;
+  height: 400px;
+}
+
+.navbar-brand
+{ 
+  font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  color: #00188f;
+}
+
+.navbar-default .navbar-brand 
+{
+  color: #00188f;
+}
+
+.navbar-nav > li > a
+{
+  color: #00188f;
+}
+
+.navbar
+{
+  background-color: #ffffff;
+}
+
+.jumbotron
+{
+  background-color: #3C3C3C;
+  color: #ffffff;
+}
+
+.jumbotron h1
+{
+  font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+.jumbotron p
+{
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+.jumbotron.jumbo-linklist
+{
+  margin-top: 3em;
+  background-color: #ebebeb;
+}
+
+.jumbotron.jumbo-linklist  a
+{
+  color: #1e75bb;
+  /*font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;*/
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+.btn-default
+{
+  color: #ffffff;
+  background-color: #00188f;
+}
+
+.HomepageTileLink
+{
+  font-size: 1em;
+  color: #1e75bb;
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  line-height: 1.429em;
+}
